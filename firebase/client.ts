@@ -35,12 +35,7 @@ export const db = getFirestore(app);
 // // Your web app's Firebase configuration
 // // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // const firebaseConfig = {
-//   apiKey: "AIzaSyAUKONPAUm2A0nB7YoaBFY2XtJvHpYUdQM",
-//   authDomain: "interviewprep-345b5.firebaseapp.com",
-//   projectId: "interviewprep-345b5",
-//   storageBucket: "interviewprep-345b5.firebasestorage.app",
-//   messagingSenderId: "965953546096",
-//   appId: "1:965953546096:web:5a08f3d0a2d23872f351b5",
+//   
 //   measurementId: "G-NXY17JXD9P"
 // };
 
