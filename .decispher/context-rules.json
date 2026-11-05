@@ -1,0 +1,53 @@
+{
+  "$schema": "https://decispher.com/schemas/context-rules/v1.json",
+  "specVersion": "2.0.0",
+  "generatedAt": "2026-11-05T09:56:27.587Z",
+  "companyId": "1e419c87-04a8-4d85-98e0-094a40a2f55b",
+  "projectId": "a4c5379c-5aa2-46be-b2a9-45e8b36d6081",
+  "meta": {
+    "totalRules": 1,
+    "rulesByType": {
+      "decision": 1,
+      "convention": 0,
+      "constraint": 0,
+      "rationale": 0,
+      "ownership": 0,
+      "history": 0,
+      "plan": 0
+    },
+    "rulesBySeverity": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 1,
+      "LOW": 0
+    },
+    "generator": "decispher-context-map@1.0.0"
+  },
+  "mcp": {
+    "instruction": "Enforcement manifest only — rule titles, severities, and file patterns. It does NOT contain the rationale, alternatives, or full body of any rule, and it may be stale relative to the live knowledge base. Do NOT treat this file as sufficient context. Before writing or reviewing code that touches a listed file pattern, call the MCP tool named in that rule's `mcpFetch` field to load the authoritative, up-to-date context. MCP is the source of truth.",
+    "tools": {
+      "getDecision": "decispher.get_decision({ decisionId })",
+      "getContextForTopic": "decispher.get_context_for_topic({ topic })",
+      "listTopics": "decispher.list_topics()"
+    }
+  },
+  "rules": [
+    {
+      "id": "2d1e31f1-2320-4742-8a3a-dd3b7bea2002",
+      "type": "decision",
+      "title": "Use Stripe for all payments; no alternate processor",
+      "severity": "MEDIUM",
+      "status": "active",
+      "affectedFiles": [],
+      "tags": [],
+      "supersededBy": null,
+      "enforcement": {
+        "blockOnViolation": false,
+        "requiresExplicitOverride": false,
+        "filePatterns": [],
+        "exemptPatterns": []
+      },
+      "mcpFetch": "decispher.get_decision({ decisionId: \"2d1e31f1-2320-4742-8a3a-dd3b7bea2002\" })"
+    }
+  ]
+}

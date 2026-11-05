@@ -1,0 +1,40 @@
+{
+  "schema": "decispher-context-map/v1",
+  "generatedAt": "2026-11-05T09:56:27.587Z",
+  "project": {
+    "id": "a4c5379c-5aa2-46be-b2a9-45e8b36d6081",
+    "name": "DevRamp Core"
+  },
+  "company": {
+    "id": "1e419c87-04a8-4d85-98e0-094a40a2f55b"
+  },
+  "spine": [],
+  "topics": [],
+  "mcp": {
+    "endpoint": null,
+    "tools": [
+      "decispher.check_intent",
+      "decispher.get_constraints",
+      "decispher.check_conventions",
+      "decispher.get_context_for_file",
+      "decispher.get_context_for_topic",
+      "decispher.list_topics",
+      "decispher.search_decisions",
+      "decispher.get_decision",
+      "decispher.get_related_context",
+      "decispher.ask_knowledge_base",
+      "decispher.capture_decision",
+      "decispher.update_context_metadata",
+      "decispher.store_read",
+      "decispher.store_write",
+      "decispher.session_record",
+      "decispher.store_link",
+      "decispher.store_list",
+      "decispher.remember",
+      "decispher.get_memory",
+      "decispher.copy_chat",
+      "decispher.paste_chat",
+      "decispher.list_clips"
+    ]
+  }
+}
